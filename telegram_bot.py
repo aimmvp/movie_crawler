@@ -1,6 +1,8 @@
 import telegram
+import mykey
 
-bot = telegram.Bot(token = '781220926:AAG-B9JwIQlrfzyoGUYtJiM1hZWAArvh1JA')
+telegram_key = mykey.TELEGRAM_KEY
+bot = telegram.Bot(token =  telegram_key)
 # for i in bot.getUpdates():
 #     print(i.message)
 
