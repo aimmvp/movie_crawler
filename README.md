@@ -8,3 +8,17 @@
   - Telegram Bot
   - AWS EC2
 
+### aws key file 권한 설정
+```
+chmod 600 key_file.pem
+```
+
+### aws ubuntu 기본 세팅
+```
+sudo apt-get update
+sudo apt install python3-pip
+pip3 install requests bs4 python3-telegram-bot apscheduler
+```
+
+
+nohup python3 movie_crawler.py &
